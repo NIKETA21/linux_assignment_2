@@ -24,10 +24,9 @@ int main()
 #include<sys/wait.h>
 int main()
 {
-	char com[20];
-	printf("think which command line program you want to execute \n");
-	printf("ex. ls, pwd, whoami, date, and more\n");
-	gets(com);
-	system(com);
+	int pid_1, fd1;
+	fd1 = open (linux.txt" , O_WRONLY|O_CREAT | O_TRUNC);
+        printf("the fd is : %d\n", fd1);
+	printf("current process pid :%d\n", getpid());
 	return 0;
 }
