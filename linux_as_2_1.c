@@ -9,7 +9,7 @@
 int main()
 {
 	printf("Calling other file using execl to run other  command programm\n");
-	execl("/home/niketa/linux_as_2_2_2", "./linux_as_2_2_2", 0);
+	execl("/home/niketa/linux", "./linux", 0);
 	return 0;
 	
 	
